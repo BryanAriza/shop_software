@@ -1,0 +1,104 @@
+/* General styles for the product container */
+.product {
+    display: flex;
+    width: 480px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* Product image slider styles */
+.slide-var ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.slide-var li img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.slide-var li img:hover {
+    transform: scale(1.1); /* Adds zoom effect on hover */
+}
+
+/* Product description styles */
+.description {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.description p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Bold product name */
+.description p b {
+    font-size: 20px;
+    color: #2d2d2d;
+}
+
+/* Price style */
+.description p:nth-child(2) {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3b9f5d;
+}
+
+/* Stock information styles */
+.description p:nth-child(3), .description p:nth-child(4) {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Input field styles */
+.description input[type="number"] {
+    width: 85%;
+    padding: 12px;
+    margin: 8px 0;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    transition: border 0.3s ease;
+    background-color: #f1f1f1;
+}
+
+.description input[type="number"]:focus {
+    border-color: #81712f;
+    outline: none;
+}
+
+/* Submit button style */
+.btn-login {
+    padding: 14px;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn-login:hover {
+    background-color: #45a049;
+}
+
+.btn-login:focus {
+    outline: none;
+}

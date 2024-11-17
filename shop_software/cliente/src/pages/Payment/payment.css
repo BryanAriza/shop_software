@@ -1,0 +1,101 @@
+.payment-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #f0f4f8;
+}
+
+.payment-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.card-container {
+    height: 200px;
+    background-color: #333;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-front {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.card-number {
+    font-size: 18px;
+}
+
+.card-holder {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.card-holder-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.FormGroup {
+    margin: 20px 0;
+    padding: 0;
+    background-color: #0c274b;
+    border-radius: 4px;
+}
+
+.FormRow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.StripeElement {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.pay {
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    padding: 12px;
+    background-color: #3faf29;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.pay:active {
+    background-color: #205814;
+}
+
+.filled {
+    background-color: #a9b2bd; /* Cambia el color de fondo cuando la tarjeta esté llena */
+}
+
+.card-type {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 10px;
+}

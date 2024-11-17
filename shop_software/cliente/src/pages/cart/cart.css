@@ -1,0 +1,110 @@
+.cart {/*se le da poscion al carro*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cartItem {/*se le da posicion a cada item del carrito cuando se ingresa*/
+    width: 700px;
+    height: 250px;
+    display: flex;
+  
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 30px;
+  }
+  
+  .cartItem img { /*propiedades de las imagenes de los productos*/
+    width: 200px;
+    padding: 20px;
+  }
+  
+  .cartItem .description {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .checkout button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(199, 192, 159);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .checkout button:hover {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(99, 86, 22);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .checkout .check {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(31, 131, 22);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .checkout .check:hover {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(19, 80, 14);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  } 
+  .checkout .total-check {
+    text-align: center;
+  }
+
+.countHandler button {
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+
+.countHandler button:first-child {
+  background-color: #f44336; 
+  color: white;
+}
+
+.countHandler button:first-child:hover {
+  background-color: #d32f2f; 
+}
+
+
+.countHandler button:last-child {
+  background-color: #4caf50;
+  color: white;
+}
+
+.countHandler button:last-child:hover {
+  background-color: #388e3c; 
+}
+
+.countHandler input {
+  width: 40px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 18px;
+  margin: 0 10px; 
+}
