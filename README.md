@@ -45,6 +45,6 @@ Esta aplicación está diseñada para facilitar la compra en línea de productos
     ```bash
     shop_software/servidor> npm start
 
-abre nueva terminal y activa el cliente
+4. abre nueva terminal y activa el cliente
     ```bash
     shop_software/cliente> npm start
