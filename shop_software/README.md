@@ -37,14 +37,14 @@ Esta aplicación está diseñada para facilitar la compra en línea de productos
    git clone https://github.com/BryanAriza/shop_software.git
 
 2. Instalar dependencias dentro del cliente y por fuera igual.
-    
+    ```bash
     shop_software/cliente> npm install
     shop_software> npm install
 
 3. Iniciar servicio para el servidor y cliente
-
+    ```bash
     shop_software/servidor> npm start
 
-    abre nueva terminal y activa el cliente
-
+abre nueva terminal y activa el cliente
+    ```bash
     shop_software/cliente> npm start
